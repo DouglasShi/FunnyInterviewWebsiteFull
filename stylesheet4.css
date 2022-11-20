@@ -1,0 +1,105 @@
+@font-face {
+    font-family: mySecularFont;
+    src: url(Font/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: mySecularFontPlus;
+    src: url(Font/League_Spartan/static/LeagueSpartan-ExtraBold.ttf);
+}
+  
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none; 
+    /*font-family:mySecularFont,'Times New Roman', Times, serif;#*/
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+
+.title_box{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height:40px;
+    width: 130px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: none;
+    margin: none;
+    cursor: pointer;
+}
+
+.title1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    position:relative;
+    bottom: 0%;
+    font-size:30px;
+
+}
+
+.title2{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    position:absolute;
+    right: 78.5%;
+    top: 5.5%;
+    font-size:30px;
+
+}
+
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: right;
+    margin-right: 8%;
+    margin-top: 3%;
+    text-decoration: underline 3px #78692e;
+    text-underline-offset: 6px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    margin:  0 1rem;
+    padding: 1rem;
+    font-size: 20px;
+    font-family: mySecularFont,'Times New Roman', Times, serif;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar ul li a:hover { 
+    color: rgb(242, 29, 18);
+}
+
+body {
+    background-color: #000000;
+    overflow: hidden;
+    }
+
+
